@@ -1343,6 +1343,7 @@ $bgtitle: #ed1fff;
         width: 35%;
         position: absolute;
         top: 53%;
+        -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         left: 5%;
         height: 100%;
