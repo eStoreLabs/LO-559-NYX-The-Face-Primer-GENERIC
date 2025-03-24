@@ -12,6 +12,9 @@
 #es-nyx.es-nyx * {
   box-sizing: border-box;
 }
+#es-nyx.es-nyx sup {
+  font-size: 16px !important;
+}
 #es-nyx.es-nyx .es-kv {
   margin: 0;
   padding: 0;
@@ -41,6 +44,9 @@
   z-index: 2;
   text-align: center;
   line-height: 0.7;
+}
+#es-nyx.es-nyx .es-kv__title sup {
+  font-size: 24px !important;
 }
 #es-nyx.es-nyx .es-kv__subtiltes {
   position: relative;
@@ -240,6 +246,9 @@
   font-weight: 700;
   color: #213e7c;
   text-align: center;
+}
+#es-nyx.es-nyx .es-ingr__subtitle sup {
+  margin-left: 5px;
 }
 #es-nyx.es-nyx .es-ingr__text {
   margin: 0;
@@ -570,7 +579,6 @@
 #es-nyx.es-nyx .es-video__container {
   position: relative;
   padding-bottom: 56.25%;
-  /* 16:9 */
   height: 0;
 }
 #es-nyx.es-nyx .es-video__logo {
@@ -671,6 +679,7 @@
   transform: scale(1.1);
 }
 #es-nyx.es-nyx .es-cross__imgCtn {
+  margin-bottom: 25px;
   padding: 20px;
 }
 #es-nyx.es-nyx .es-cross__img {
@@ -723,7 +732,7 @@
   outline: 4px solid #000;
 }
 #es-nyx.es-nyx .es-cross__disc {
-  padding: 42px 10% 10px;
+  padding: 42px 2% 10px;
 }
 #es-nyx.es-nyx .es-cross__discText {
   margin: 0;
@@ -735,6 +744,9 @@
   text-align: center;
   font-size: 12px;
   color: #213e7c;
+}
+#es-nyx.es-nyx .es-cross__discText sup {
+  font-size: 10px !important;
 }
 #es-nyx.es-nyx .es-footer {
   width: 100%;
@@ -931,10 +943,10 @@
     left: 3%;
   }
   #es-nyx.es-nyx .es-ingr__heartWrapper {
-    width: 20%;
+    width: 22%;
     position: absolute;
-    bottom: 16%;
-    left: 2%;
+    bottom: 7%;
+    left: -2%;
   }
   #es-nyx.es-nyx .es-ingr__upperCtn {
     position: absolute;
@@ -990,7 +1002,8 @@
     background-size: 90% 64%;
   }
   #es-nyx.es-nyx .es-htu--2 {
-    background-size: 88% 83%;
+    background-size: 92.6% 56%;
+    background-position: 122.5% 12%;
   }
   #es-nyx.es-nyx .es-htu__wrapper {
     flex-wrap: nowrap;
@@ -1015,7 +1028,7 @@
     font-size: 20px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 998px) {
   #es-nyx.es-nyx .es-slider {
     margin-top: -67px;
     margin-left: 10px;
@@ -1080,23 +1093,90 @@
     font-size: 20px;
   }
   #es-nyx.es-nyx .es-htu {
-    background-position: 98% 12%;
-    background-size: 88.8% 64%;
+    background-position: 100% 17%;
+    background-size: 89.3% 63.3%;
   }
   #es-nyx.es-nyx .es-htu--2 {
-    background-position: 114.1% 18%;
-    background-size: 91.3% 68%;
+    background-position: 121.7% 18%;
+    background-size: 92.3% 67%;
   }
   #es-nyx.es-nyx .es-slider__name--2 {
     font-size: 24px;
   }
+  #es-nyx.es-nyx .es-cross__upperCtn {
+    top: -23px;
+    left: 48%;
+  }
+  #es-nyx.es-nyx .es-cross__productsCtn {
+    padding-top: 100px;
+  }
+  #es-nyx.es-nyx .es-cross__title {
+    font-size: 52px;
+  }
 }
 @media (min-width: 1300px) {
+  #es-nyx.es-nyx .es-kv__title {
+    font-size: 55px;
+    left: 40%;
+  }
+  #es-nyx.es-nyx .es-kv__paperWrapper {
+    padding-top: 12%;
+  }
+  #es-nyx.es-nyx .es-kv__subtitle2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  #es-nyx.es-nyx .es-kv__cruelty {
+    top: 95%;
+    left: 2%;
+    width: 18%;
+  }
+  #es-nyx.es-nyx .es-kv__list-logo {
+    right: 10%;
+    bottom: -19%;
+  }
+  #es-nyx.es-nyx .es-kv__packshotWrapper {
+    width: 35%;
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    left: 5%;
+    height: 100%;
+  }
   #es-nyx.es-nyx .es-kv__list-heart-title {
     left: 23%;
   }
   #es-nyx.es-nyx .es-ingr {
     min-height: 611px;
+  }
+  #es-nyx.es-nyx .es-ingr__item--1 {
+    bottom: 56%;
+    left: 27%;
+  }
+  #es-nyx.es-nyx .es-ingr__item--2 {
+    width: 19%;
+    bottom: 3%;
+    right: 14%;
+  }
+  #es-nyx.es-nyx .es-ingr__text {
+    font-size: 22px;
+  }
+  #es-nyx.es-nyx .es-ingr__subtitle {
+    font-size: 56px;
+    line-height: 0.8;
+  }
+  #es-nyx.es-nyx .es-ingr__subtitle--1 {
+    width: 25%;
+    font-size: 53px;
+    bottom: 44%;
+    left: -1%;
+  }
+  #es-nyx.es-nyx .es-ingr__title {
+    font-size: 50px;
+  }
+  #es-nyx.es-nyx .es-ingr__upperCtn {
+    top: 12%;
+    left: 9%;
   }
   #es-nyx.es-nyx .es-ingr .es-ingr__wrapper {
     width: 61%;
@@ -1121,8 +1201,23 @@
     top: 53%;
     font-size: 16px;
   }
+  #es-nyx.es-nyx .es-slider__img {
+    width: 225px;
+  }
+  #es-nyx.es-nyx .es-slider__slide {
+    width: 100%;
+  }
+  #es-nyx.es-nyx .es-htu {
+    background-position: 98.1% 13%;
+    background-size: 88.7% 63.3%;
+  }
+  #es-nyx.es-nyx .es-htu__wrapper {
+    padding-top: 35px;
+  }
+  #es-nyx.es-nyx .es-htu__title {
+    font-size: 50px;
+  }
 }
-
 @keyframes pulse {
   0% {
     transform: scale(1);
