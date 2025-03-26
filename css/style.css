@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 #es-nyx.es-nyx sup {
-  font-size: 16px !important;
+  font-size: 13px !important;
 }
 #es-nyx.es-nyx .es-kv {
   margin: 0;
@@ -47,6 +47,12 @@
 }
 #es-nyx.es-nyx .es-kv__title sup {
   font-size: 24px !important;
+  vertical-align: top !important;
+}
+@media screen and (max-width: 768px) {
+  #es-nyx.es-nyx .es-kv__title sup {
+    font-size: 18px !important;
+  }
 }
 #es-nyx.es-nyx .es-kv__subtiltes {
   position: relative;
@@ -866,6 +872,7 @@
   }
   #es-nyx.es-nyx .es-kv__title {
     font-size: 30px;
+    line-height: 0.9;
   }
   #es-nyx.es-nyx .es-kv__paperWrapper {
     padding-left: 23%;
@@ -885,6 +892,9 @@
   }
 }
 @media (min-width: 800px) {
+  #es-nyx.es-nyx sup {
+    font-size: 16px !important;
+  }
   #es-nyx.es-nyx .es-kv {
     min-height: 400px;
   }
