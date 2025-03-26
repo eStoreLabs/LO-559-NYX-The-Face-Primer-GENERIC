@@ -38,6 +38,7 @@ $bgtitle: #ed1fff;
 
   sup {
     font-size: 13px !important;
+    margin-left: 2px;
   }
 
   .es-kv {
@@ -1019,7 +1020,8 @@ $bgtitle: #ed1fff;
 
   @media (min-width: 800px) {
     sup {
-      font-size: 16px !important;
+      font-size: 14px !important;
+      vertical-align: text-top;
     }
 
     .es-kv {
