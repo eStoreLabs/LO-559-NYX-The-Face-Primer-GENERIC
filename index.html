@@ -17,7 +17,7 @@
       <div class="es-kv">
         <p class="es-kv__title">TA&nbsp;BAZA&nbsp;KLEI,<br>
           TWÓJ&nbsp;MAKEUP&nbsp;SIĘ&nbsp;NIE&nbsp;ODKLEI!<sup>1</sup></p>
-        <img src="./images/Photo.png"
+        <img src="./images/photo.png"
              alt=""
              class="es-kv__photo">
         <img src="./images/cruelty.png"
@@ -80,7 +80,7 @@
         </div>
         <div class="es-ingr__wrapper">
           <div class="es-ingr__container">
-            <img src="./images/Packs.png"
+            <img src="./images/packs.png"
                  alt=""
                  class="es-ingr__packshots">
             <p class="es-ingr__ingr es-ingr__ingr--1">Kwas<br>poliglutaminowy</p>
@@ -347,17 +347,19 @@
     </div>
     <script src="./js/slider.js"></script>
     <script>
-      const swiper = new Swiper('#es-nyx .es-swiper', {
-        loop: true,
-        autoHeight: true,
-        pagination: {
-          el: '.es-swiper-pagination',
-        },
-        navigation: {
-          nextEl: '.es-swiper-button-next',
-          prevEl: '.es-swiper-button-prev'
-        }
-      })
+      (() => {
+        const swiper = new Swiper('#es-nyx .es-swiper', {
+          loop: true,
+          autoHeight: true,
+          pagination: {
+            el: '#es-nyx .es-swiper-pagination',
+          },
+          navigation: {
+            nextEl: '#es-nyx .es-swiper-button-next',
+            prevEl: '#es-nyx .es-swiper-button-prev'
+          }
+        })
+      })()
     </script>
   </body>
 
