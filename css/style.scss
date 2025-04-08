@@ -984,6 +984,7 @@ $bgtitle: #ed1fff;
       }
     }
   }
+
   @media (min-width: 650px) {
     .es-kv {
       padding-top: 420px;
@@ -1076,6 +1077,7 @@ $bgtitle: #ed1fff;
       background-repeat: no-repeat;
       background-position: 100% center;
       background-size: 78%;
+
       &__droplets {
         display: block;
       }
@@ -1201,6 +1203,18 @@ $bgtitle: #ed1fff;
       &__name {
         &--2 {
           font-size: 20px;
+        }
+      }
+    }
+
+    .es-cross {
+      &__img {
+        &--blush {
+          max-width: 170px;
+        }
+
+        &--faceglue {
+          max-width: 115px;
         }
       }
     }

@@ -1039,6 +1039,12 @@
   #es-nyx.es-nyx .es-slider__name--2 {
     font-size: 20px;
   }
+  #es-nyx.es-nyx .es-cross__img--blush {
+    max-width: 170px;
+  }
+  #es-nyx.es-nyx .es-cross__img--faceglue {
+    max-width: 115px;
+  }
 }
 @media (min-width: 998px) {
   #es-nyx.es-nyx .es-slider {
